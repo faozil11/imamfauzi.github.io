@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!--My CSS-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Portfolio | Imam Fauzi</title>
+  </head>
+  <body id="home">
+    <!--Awal Navv-->
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#">Imam Fauzi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Project</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--akhir nav-->
+    <!--Jumbotron start-->
+    <section class="jumbotron text-center">
+      <img src="img/foto_terbaru_merah.jpg" alt="Imam Fauzi" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">IMAM FAUZI</h1>
+      <p class="lead">Junior Programmer</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,128L48,133.3C96,139,192,149,288,170.7C384,192,480,224,576,218.7C672,213,768,171,864,165.3C960,160,1056,192,1152,197.3C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!--Jumbotron End-->
+    <!--About Start-->
+    <section id="about">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col text-center">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5">
+          <div class="col-md-4">
+            <p>Perkenalkan nama saya adalah Imam Fauzi biasa di panggil Imam. Saya lahir di Jakarta pada tanggal 4 Maret 1993. 
+               Sekarang saya tinggal di tangerang bersama keluarga saya. Saat ini saya sedang bekerja di sebuah perusahaan swasta yang bergerak di bidang jasa keuangan.</p>
+          </div>
+          <div class="col-md-7">
+            <p>Saat ini saya belum memiliki pengalaman sebelumnya di bidang programming. Saya belajar programming pada saat masih kuliah dan project yang saya pernah buat 
+               merupakan hasil dari tugas kuliah. Kemampuan saya adalah PHP dan database yang biasa saya gunakan adalah MySQL. Saat ini saya juga sedang belajar kembali bahasa pemrograman dengan menggunakan 
+               framework Codeigneter yang saya pelajari dari Youtube dan beberapa video tutorial yang saya beli di internet. Karena programming merupakan hobi saya jadi saya akan terus berusaha belajar dan menyalurkan bakat saya di bidang programming.
+               . Demikian singkat cerita tentang diri saya bila ada salah kata mohon di maafkan. Terimakasih
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="rgb(161, 250, 250"
+          fill-opacity="1"
+          d="M0,160L48,144C96,128,192,96,288,106.7C384,117,480,171,576,208C672,245,768,267,864,245.3C960,224,1056,160,1152,128C1248,96,1344,96,1392,96L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!--About End-->
+    <!--Project Start-->
+    <section id="project">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Projects</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/flogin.jpg" class="card-img-top" alt="project1" />
+              <div class="card-body">
+                <h5 class="card-title">Sistem Informasi Puskesmas Plawad</h5>
+                <p class="card-text">Project Ini Merupakan Project Tugas Akhir Saya di Universitas Mercu Buana</p>
+                <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Lihat Gambar
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">istem Informasi Puskesmas Plawad</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/flogin.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block" id="carouselfont">
+                <h5>Halaman Login</h5>
+                <p>Ini Adalah Halaman Login Sebelum Masuk Ke Menu Utama</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/fklmenu.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block" id="carouselfont">
+                <h5>Menu Utama</h5>
+                <p>Ini Adalah Tampilan Awal Menu Setelah Proses Login.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/fpengecekan.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block" id="carouselfont">
+                <h5>Data Pasien</h5>
+                <p>Ini Adalah Menu Pasien Setelah Proses Pendaftaran Dan Disini Juga Pasien Di Periksa Untuk Tekanan Darah.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+        </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/simoli.PNG" class="card-img-top" alt="project2" />
+              <div class="card-body">
+                <h5 class="card-title">Sistem Monitoring Aplikasi</h5>
+                <p class="card-text">Project Ini Merupakan Project Tugas Pameran Untuk Memenuhi Nilai Matakuliah di Universitas Mercu Buana</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Lihat Gambar
+                </button>
+              </div>
+              <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog  modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Sistem Monitoring Aplikasi</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/simoli.PNG" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block" id="carouselfont">
+                <h5>Halaman Login</h5>
+                <p>Ini Adalah Halaman Login Sebelum Masuk Ke Menu Utama</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/mandiri2.PNG" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block" id="carouselfont">
+                <h5>Menu Admin</h5>
+                <p>Ini Adalah Tampilan Awal Menu  Admin.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/mandiri3.PNG" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block" id="carouselfont">
+                <h5>Menu Marketing</h5>
+                <p>Ini Adalah Tampilan Awal Menu ntuk Marketing.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+</div>
+            </div>
+        </div>
+      </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,64L48,64C96,64,192,64,288,69.3C384,75,480,85,576,112C672,139,768,181,864,192C960,203,1056,181,1152,144C1248,107,1344,53,1392,26.7L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!--Project End-->
+    <!--My Education Start-->
+    <section id="education">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>My Education</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col"><table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">School Name</th>
+                <th scope="col">Years</th>
+                <th scope="col">Major</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>SDN RBS 05 Pagi</td>
+                <td>1999-2005</td>
+                <td>N/A</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>SMPN 277 Jakarta</td>
+                <td>2005-2008</td>
+                <td>N/A</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>SMK Walang Jaya</td>
+                <td>2008-2011</td>
+                <td>Mekanik Otomotif</td>
+              </tr>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Akademi Bina Sarana Informatika</td>
+                <td>2013-2016</td>
+                <td>Menajemen Informatika</td>
+              </tr>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Universitas Mercu Buana</td>
+                <td>2016-2018</td>
+                <td>Sistem Informasi</td>
+              </tr>
+            </tbody>
+          </table></div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="rgb(161, 250, 250"
+          fill-opacity="1"
+          d="M0,256L48,224C96,192,192,128,288,133.3C384,139,480,213,576,240C672,267,768,245,864,224C960,203,1056,181,1152,176C1248,171,1344,181,1392,186.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!--Education End-->
+    <!--Contact Start-->
+    <section id="contact">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col text-center">
+            <h2>Contact Me</h2>
+          </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInput1" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="nama" aria-describedby="" />
+              </div>
+            <form>
+              <div class="mb-3">
+                <label for="exampleInput2" class="form-label">No Telepon</label>
+                <input type="number" min="1" max="12" class="form-control" id="nama" aria-describedby="" />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div></div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,128L48,144C96,160,192,192,288,213.3C384,235,480,245,576,234.7C672,224,768,192,864,165.3C960,139,1056,117,1152,117.3C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+    <!--Contact End-->
+    <!--Footer-->
+    <footer class="bg-primary text-white text-center pb-5">
+      <p>
+        Created By <a href="" class="text-white fw-bold">Imam Fauzi</a> | 08561274864 
+      </p>
+    </footer>
+    <!--Footer End-->
+    <!-- Optional JavaScript; choose one of the two! --> 
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
